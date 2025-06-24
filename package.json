@@ -1,0 +1,24 @@
+{
+  "name": "webservices",
+  "version": "1.0.0",
+  "description": "query {\r   agents {\r     id\r     nom\r     prenom\r     email\r     bio\r     competences {\r       nom\r       niveau\r     }\r     liens {\r       type\r       url\r     }\r   }\r }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidiwael94/WebServices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abidiwael94/WebServices/issues"
+  },
+  "homepage": "https://github.com/abidiwael94/WebServices#readme",
+  "dependencies": {
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.11.0"
+  }
+}
