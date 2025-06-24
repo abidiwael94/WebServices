@@ -52,6 +52,7 @@ const typeDefs = gql`
   type Mutation {
     createAgent(input: AgentInput!): Agent
     updateAgent(id: ID!, input: AgentInput!): Agent
+    deleteAgent(id: ID!): Boolean
   }
 `;
 

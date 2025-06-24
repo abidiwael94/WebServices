@@ -19,6 +19,7 @@
   "homepage": "https://github.com/abidiwael94/WebServices#readme",
   "dependencies": {
     "apollo-server": "^3.13.0",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "uuid": "^11.1.0"
   }
 }
