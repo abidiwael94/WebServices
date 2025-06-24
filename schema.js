@@ -47,6 +47,12 @@ const typeDefs = gql`
     agents: [Agent]
     agent(id: ID!): Agent
   }
+
+  # Mutations
+  type Mutation {
+    createAgent(input: AgentInput!): Agent
+    updateAgent(id: ID!, input: AgentInput!): Agent
+  }
 `;
 
 module.exports = { typeDefs };
