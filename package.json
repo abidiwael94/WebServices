@@ -4,6 +4,7 @@
   "description": "query {\r   agents {\r     id\r     nom\r     prenom\r     email\r     bio\r     competences {\r       nom\r       niveau\r     }\r     liens {\r       type\r       url\r     }\r   }\r }",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
