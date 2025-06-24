@@ -41,6 +41,12 @@ const typeDefs = gql`
     competences: [CompetenceInput]
     liens: [LienProInput]
   }
+
+  # Requêtes
+  type Query {
+    agents: [Agent]
+    agent(id: ID!): Agent
+  }
 `;
 
 module.exports = { typeDefs };
